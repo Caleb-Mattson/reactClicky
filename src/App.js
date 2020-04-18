@@ -137,10 +137,12 @@ class App extends Component {
   }
 
   gameLoss() {
+    alert(`You lost.`)
     this.gameReset();
   }
 
   gameWin() {
+    alert(`You won!`)
     this.gameReset();
   }
 

@@ -56,16 +56,7 @@ img {
   padding: auto;
 }
 
-/* img:hover {
-  transform: scale(1.37)
-} */
-
-img {
-  /* border-radius: 50%; */
-  
-}
 img:hover {
-  /* transform: scale(1.37); */
   -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
   -webkit-transform: rotate(720deg);
